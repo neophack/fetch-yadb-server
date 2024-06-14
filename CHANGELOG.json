@@ -1,0 +1,17 @@
+{
+  "name": "fetch-yadb-server",
+  "entries": [
+    {
+      "version": "0.0.21",
+      "tag": "fetch-yadb-server_v0.0.21",
+      "date": "Fri, 14 Aug 2024 14:05:18 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Move the fetching server binary script to `fetch-yadb-server` package"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "fetch-yadb-server",
+  "version": "0.0.22",
+  "description": "A script to download yadb server binary.",
+  "keywords": [
+    "yadb"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "neo peng",
+    "email": "pep3309531@163.com",
+    "url": "https://github.com/neophack/"
+  },
+  "homepage": "https://github.com/neophack/fetch-yadb-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neophack/fetch-yadb-server.git",
+    "directory": "packages/fetch-yadb-server"
+  },
+  "bugs": {
+    "url": "https://github.com/neophack/fetch-yadb-server/issues"
+  },
+  "bin": {
+    "fetch-yadb-server": "bin/fetch-server.cjs"
+  },
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "gh-release-fetch": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.0"
+  }
+}
